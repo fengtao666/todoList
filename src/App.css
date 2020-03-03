@@ -2,37 +2,64 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .todo-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+/* .todo {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+} */
+
+/* .todo-is-completed .checkbox {
+  color: #333;
+  background-color: lightgray;
+} */
+
+.todo-is-completed input {
+  text-decoration: line-through;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+} */
+/* 
+.checkbox:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0);
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .checkbox-checked {
+  color: yellow;
+  background: #ffffff;
+} */
+
+/* ul {
+  list-style: none;
+  padding: 0;
+  line-height: 20px;
+  width: 500px;
+} */
+
+/* input {
+  border: none;
+  background: yellowgreen;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+} */
